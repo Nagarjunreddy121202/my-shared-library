@@ -6,7 +6,7 @@ def call() {
             stage('Checkout') {
                 steps {
                     script {
-                        // Your checkout logic
+                        // Move 'checkout scm' to here
                         checkout scm
                     }
                 }
